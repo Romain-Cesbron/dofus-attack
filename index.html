@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dofus Spell Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Dofus Spell Tracker</h1>
+    <div id="spellsContainer">
+      <!-- Spell boxes will be dynamically added here -->
+    </div>
+    
+    <!-- Inputs for Puissance, Agilité, and Dommage Agilité -->
+    <div class="inputs">
+      <label for="puissance">Puissance:</label>
+      <input type="number" id="puissance" value="0">
+      <label for="agilite">Agilité:</label>
+      <input type="number" id="agilite" value="0">
+      <label for="dommageAgilite">Dommage Agilité:</label>
+      <input type="number" id="dommageAgilite" value="0">
+    </div>
+    
+    <!-- Display Damage and Ratio -->
+    <div class="results">
+      <p>Total damage: <span id="sumTotalDamage">0.00</span></p>
+      <p id="puissanceAgiDamage">Total damage from Puissance + Agilité: 0.00</p>
+      <p id="dommageAgiDamage">Total damage from Dommage Agilité: 0.00</p>
+      <p id="damageRatio">1 Dommage Agilité = 0.00</p>
+    </div>
+  </div>
+
+  <script type="module" src="./script.js"></script>
+</body>
+</html>
+

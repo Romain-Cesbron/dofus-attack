@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+  }
+  
+  .inputs {
+    margin: 20px 0;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  input {
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+  }
+  
+  .results {
+    margin-top: 20px;
+  }
+  
+  .results p {
+    font-size: 1.2em;
+  }
+  
+  .spell-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .spell-name {
+    font-size: 1.1em;
+    margin-right: 20px;
+  }
+  
+  .counter {
+    font-size: 1.2em;
+    margin: 0 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .damage-range {
+    font-size: 1em;
+    color: #333;
+  }
+  
+  .calculated-range {
+    font-size: 1em;
+    color: #555;
+  }
+  
+  .calculated-range-display {
+    font-size: 1em;
+    color: #777;
+  }
+  
